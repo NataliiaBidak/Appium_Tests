@@ -1,0 +1,51 @@
+Prepare the detailed test cases for sign in with Facebook option.
+
+    Verify user is able to sign in with a valid email and valid password for Facebook account.
+1.Launch application.
+2.Tap on 'Continue with Facebook' button.
+3.Verify Facebook login page is displayed.
+4.Enter valid email and password.
+5.Tap on 'Log In' button.
+6.Verify user is logged in successfully.
+
+    Verify user is not able to sign in with an invalid email and valid password for Facebook account.
+1.Launch application.
+2.Tap on 'Continue with Facebook' button.
+3.Verify Facebook login page is displayed.
+4.Enter an invalid email and a valid password.
+5.Tap on 'Log In' button.
+6.Verify user is not logged in.
+7.Verify  error-message 'Please enter your password. Did you forget your password?' is displayed.
+
+    Verify user is not able to sign in with an empty email and password for Facebook account.
+1.Launch application.
+2.Tap on 'Continue with Facebook' button.
+3.Verify Facebook login page is displayed.
+4.Leave an empty email and password.
+5.Tap on 'Log In' button.
+6.Verify user is not logged in.
+7.Verify  error-message 'The email or phone number you've entered doesn't match any account.Sign up for account.' is displayed.
+
+    Verify initial page is displayed after tapping on 'Not now' button.
+1.Launch application.
+2.Tap on 'Continue with Facebook' button.
+3.Verify Facebook login page is displayed.
+4.Tap on 'Not now' button.
+5.Verify initial page is displayed.
+
+    Verify password is displayed as bullet signs.
+1.Launch application.
+2.Tap on 'Continue with Facebook' button.
+3.Verify Facebook login page is displayed.
+4.Enter password.
+5.Verify password is displayed as bullet signs.
+
+    Verify email and password are empty after navigating to initial page with 'Not now' button.
+1.Launch application.
+2.Tap on 'Continue with Facebook' button.
+3.Verify Facebook login page is displayed.
+4.Enter email, password.
+5.Tap on 'Not now' button.
+6.On initial page tap on 'Continue with Facebook' button.
+7.Verify email and password fields are empty.
+

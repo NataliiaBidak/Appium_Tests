@@ -1,0 +1,32 @@
+Create the test cases headers for the entire sign in / sign up flow.
+
+1.Verify user is able to sign in with a valid Apple ID and valid password for Apple account.
+2.Verify user is not able to sign in with an invalid Apple ID and valid password for Apple account.
+3.Verify user is not able to sign in with a valid Apple ID and invalid password for Apple account.
+4.Verify user is not able to sign in with an invalid Apple ID and invalid password for Apple account.
+
+1.Verify user is able to sign in with a valid username and valid password for Google account.
+2.Verify user is not able to sign in with a valid username and invalid password for Google account.
+3.Verify user is not able to sign in with an invalid username and valid password for Google account.
+4.Verify user is not able to sign in with an invalid username and invalid password for Google account.
+
+1.Verify user is able to sign in with a valid username and valid password for Facebook account.
+2.Verify user is not able to sign in with a valid username and invalid password for Facebook account.
+3.Verify user is not able to sign in with an invalid username and valid password for Facebook account.
+4.Verify user is not able to sign in with an invalid username and invalid password for Facebook account.
+
+1.Verify user is able to sign up with a valid username and valid password for email account.
+2.Verify user is not able to sign up with an invalid username and valid password for email account.
+3.Verify user is not able to sign up with a valid username and invalid password for email account.
+4.Verify user is not able to sign up with an invalid username and invalid password for email account.
+
+1.Verify user is able to sign in with a valid username and valid password for email account.
+2.Verify user is not able to sign in with an invalid username and valid password for email account.
+3.Verify user is not able to sign in with a valid username and invalid password for email account.
+4.Verify user is not able to sign in with an invalid username and invalid password for email account.
+
+1.Verify error-message is displayed when an invalid username or password is entered
+2.Verify error-message is displayed when an empty username or password is entered
+3.Verify error-message is displayed when a password doesn't meet password restrictions.
+4.Verify password is displayed as bullet signs.
+
