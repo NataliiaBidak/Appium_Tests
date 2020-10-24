@@ -4,7 +4,7 @@ import time
 import os
 import subprocess
 import pytest
-from settings import *
+from ..settings import *
 
 driver = None
 
@@ -13,7 +13,7 @@ driver = None
 def setup(request):
     desired_caps = DESIRED_CAPS
     global driver
-    driver = webdriver.Remote("http://0.0.0.0:4723/wd/hub", desired_caps)
+    driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", desired_caps)
     driver.implicitly_wait(5)
     request.cls.driver = driver
     yield

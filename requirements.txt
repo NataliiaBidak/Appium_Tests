@@ -10,3 +10,4 @@ allure_python_commons == 2.8.18
 # PythonAppiumFramework/tests/test_CreateAccount.py: 1
 # PythonAppiumFramework/utilities/BaseClass.py: 3
 pytest == 6.1.1
+allure-pytest
